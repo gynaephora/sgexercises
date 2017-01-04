@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/1_Paskal_triangle/1_Paskal_triangle.iml" filepath="$PROJECT_DIR$/1_Paskal_triangle/1_Paskal_triangle.iml" />
+      <module fileurl="file://$PROJECT_DIR$/2_polinom/2_polinom.iml" filepath="$PROJECT_DIR$/2_polinom/2_polinom.iml" />
+      <module fileurl="file://$PROJECT_DIR$/3_stroki/3_stroki.iml" filepath="$PROJECT_DIR$/3_stroki/3_stroki.iml" />
+      <module fileurl="file://$PROJECT_DIR$/4_customer/4_customer.iml" filepath="$PROJECT_DIR$/4_customer/4_customer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/5_employees/5_employees.iml" filepath="$PROJECT_DIR$/5_employees/5_employees.iml" />
+      <module fileurl="file://$PROJECT_DIR$/soft-group-korzhovskyi.iml" filepath="$PROJECT_DIR$/soft-group-korzhovskyi.iml" />
+    </modules>
+  </component>
+</project>
