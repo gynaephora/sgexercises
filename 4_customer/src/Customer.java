@@ -1,6 +1,15 @@
 /**
- * Created by mustango on 04.01.2017.
+ * Created by Volodymyr Korzhovskyi on 04.01.2017.
  */
+//Ответ:
+/* Класс Customer создает модель Клиента, в которой определяется его имя
+   Поскольку клиенты бывают разные, может случится, что из за какого-то клиента необходимо будет
+   изменить метод начисления ренты и тогда придется изменять код класса Customer. Что если изменится
+   тип валюты или в стоимость ренты необходимо будет включить дополнительные опции, опять же придется
+   изменять класс Customer. Также в таком (последнем виде) легче будет наследоваться от класса, так как
+   он имеет больший уровень абстракции. При расширения кода мы сможем уменьшить количество ошибок.
+  */
+
 public class Customer {
 
     private String name;
@@ -14,25 +23,10 @@ public class Customer {
     public void setName(String name) {
         this.name=name;
     }
-    private double amountFor(Rental rental) {
-        double result;
-// Another code.
-        result=rental.getDays()*rental.getBasePrice();
-        if (rental.getKind()==1) {
-            result=result*1.5;
-        }
-        if (rental.getKind()==2) {
-            result=result*2;
-        }
-        if (rental.getKind()==3) {
-            result=result*2.5;
-        }
-        if (rental.getDays()>7) {
-            result=result*3;
-        }
-// Other calculation.
-        return result;
-    }
+
 // Other methods.
 
 }
+
+
+

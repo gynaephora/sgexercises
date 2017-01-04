@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 /**
- * Created by mustango on 02.01.2017.
+ * Created by Volodymyr Korzhovskyi  on 02.01.2017.
  */
 public class PaskalTMain {
     Integer number;
